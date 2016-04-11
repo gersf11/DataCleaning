@@ -10,7 +10,9 @@ The assignment in this project is to clean the data from "Human Activity Recogni
 This data set contains measurements obtanied from a group of 30 volunteers that performed six activities.
 Their activity was recorded through a mobile device equipped with accelerometer and gyroscope.
 
-The objective of this assignment is to produce a tidy data set that contains a summary (mean) of the measured variables grouped by subject and activity.
+The relevant variables for this assignment are the mean and standard deviation for each measurement.
+
+The objective of this assignment is to produce a tidy data set that contains a summary (mean) of the relevant variables grouped by subject and activity.
 
 The data is scattered through various txt files. The data has to be collected and merged.
 
@@ -32,3 +34,12 @@ The scripts are:
 The script run_analysis.R should run as long as all other scripts are in current workspace. run_analysis will 'Source' all scripts automatically.
 
 get_summary uses plyr and dplyr. These libraries are loaded inside the code but the script doesn't install them. If they are not installed, script will fail.
+
+## Output
+
+The script produces two txt files:
+"complete_clean_data_set.txt" - This file has all the measurements of the relevant variables from raw data
+"tidy_data_set.txt" - Contains a summary with the mean of each relevant variable grouped by subject and activity
+
+See [Code book](https://github.com/gersf11/DataCleaning/blob/master/Codebook.md) for more details on the output files
+
