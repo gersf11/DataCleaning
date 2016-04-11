@@ -26,3 +26,9 @@ The scripts are:
 * get_activities.R       - Reads activities from file y_[train|test].txt
 * get_measurements.R     - Reads measurements, it only reads the columns of the relevant features as determined by get_feature_names
 * get_summary.R          - Using the clean data set, this script produces a tidy data set with a summary of the variables
+
+## How to run it
+
+The script run_analysis.R should run as long as all other scripts are in current workspace. run_analysis will 'Source' all scripts automatically.
+
+get_summary uses plyr and dplyr. These libraries are loaded inside the code but the script doesn't install them. If they are not installed, script will fail.
