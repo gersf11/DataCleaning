@@ -3,8 +3,6 @@ get_activities<- function(data_set, start_index, activity_labels){
     # This function reads the file y_[train|test].txt
     # And returns a data frame with the columns:
     # activityId, index, activityName
-    # TODO get activity labels from file
-    #activities<-c("WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING")
     # read file
     y_file_name <- sprintf("./data/UCI HAR Dataset/%s/y_%s.txt", data_set,data_set)
     y_data <- read.table(y_file_name)
