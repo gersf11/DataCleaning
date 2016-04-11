@@ -35,6 +35,8 @@ The script run_analysis.R should run as long as all other scripts are in current
 
 get_summary uses plyr and dplyr. These libraries are loaded inside the code but the script doesn't install them. If they are not installed, script will fail.
 
+run_analysis will look for the data in "./data". If it's not there, script will download it and unzip it
+
 ## Output
 
 The script produces two txt files:
