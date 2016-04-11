@@ -6,6 +6,7 @@ This repository contains the scripts of the Data Cleaning project, part of Data 
 The assignment in this project is to clean the data from "Human Activity Recognition Using Smartphones Data Set".
 [[Experiment description](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones),
 [Data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)]
+
 This data set contains measurements obtanied from a group of 30 volunteers that performed six activities.
 Their activity was recorded through a mobile device equipped with accelerometer and gyroscope.
 
